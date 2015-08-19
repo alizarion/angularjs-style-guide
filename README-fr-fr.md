@@ -90,6 +90,7 @@ Il existe deux approches principales&#8239;:
 ├── app
 │   ├── app.module.js
 │   ├── app.route.js
+│   ├── app.template.html
 │   ├── common
 │   │   ├── controllers
 │   │   ├── directives
