@@ -87,37 +87,61 @@ Il existe deux approches principales&#8239;:
 ```
 .
 ├── app
-│   ├── app.js
+│   ├── app.module.js
+│   ├── app.route.js
 │   ├── common
 │   │   ├── controllers
 │   │   ├── directives
 │   │   ├── filters
 │   │   └── services
-│   ├── home
-│   │   ├── controllers
-│   │   │   ├── FirstCtrl.js
-│   │   │   └── SecondCtrl.js
-│   │   ├── directives
-│   │   │   └── directive1.js
-│   │   ├── filters
-│   │   │   ├── filter1.js
-│   │   │   └── filter2.js
-│   │   └── services
-│   │       ├── service1.js
-│   │       └── service2.js
-│   └── about
-│       ├── controllers
-│       │   └── ThirdCtrl.js
-│       ├── directives
-│       │   ├── directive2.js
-│       │   └── directive3.js
-│       ├── filters
-│       │   └── filter3.js
-│       └── services
-│           └── service3.js
-├── partials
-├── lib
-└── test
+│   └── features
+│       ├── firstFeature
+|    	|   ├── home
+|    	|   │   ├── controllers
+|   	|   │   │   ├── firstController.js
+|   	|   │   │   └── secondController.js
+|   	|   │   ├── directives
+|   	|   │   │   └── directive1.js
+|   	|   │   ├── filters
+|   	|   │   │   ├── filter1.js
+|   	|   │   │   └── filter2.js
+|   	|   │   ├── resources
+|   	|   │   │   └── resource1Resource.js
+|   	|   │   └── services
+|   	|   │       ├── service1Service.js
+|   	|   │       └── service2Service.js
+|   	|   └── about
+|   	|       ├── controllers
+|   	|       │   └── ThirdController.js
+|   	|       ├── directives
+|   	|       │   ├── directive2.js
+|   	|       │   └── directive3.js
+|   	|       ├── filters
+|   	|       │   └── filter3.js
+|   	|       └── services
+|   	|           └── service3Service.js
+|	├── secondFeature
+|    	|   ├── users
+|    	|   │   ├── controllers
+|   	|   │   │   └── fourthController.js
+|   	|   │   ├── directives
+|   	|   │   │   └── directive4.js
+|   	|   │   ├── filters
+|   	|   │   │   └── filter5.js
+|   	|   │   ├── resources
+|   	|   │   │   └── resource2Resource.js
+|   	|   │   └── services
+|   	|   │       ├── service4Service.js
+|   	|   │       └── service5.js
+└── assets
+    ├── css
+    ├── fonts
+    ├── img
+    ├── js
+    ├── lib
+    ├── locale
+    └── scss
+
 ```
 
 * Lors de la création des directives, il peut être pratique de mettre tous les fichiers associés à une directive (gabarits, CSS / fichiers SASS, JavaScript) dans un seul dossier. Si vous choisissez d'utiliser ce style d'arborescence, soyez cohérent et utilisez-le partout dans votre projet.
