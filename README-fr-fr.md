@@ -86,6 +86,7 @@ Il existe deux approches principales&#8239;:
 
 ```
 .
+├── index.html
 ├── app
 │   ├── app.module.js
 │   ├── app.route.js
