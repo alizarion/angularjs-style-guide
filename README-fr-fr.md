@@ -120,7 +120,7 @@ Il existe deux approches principales&#8239;:
 |   	|       │   └── filter3.js
 |   	|       └── services
 |   	|           └── service3Service.js
-|	├── secondFeature
+│       ├── secondFeature
 |    	|   ├── users
 |    	|   │   ├── controllers
 |   	|   │   │   └── fourthController.js
