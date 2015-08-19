@@ -122,19 +122,19 @@ Il existe deux approches principales&#8239;:
 |   	|       │   └── filter3.js
 |   	|       └── services
 |   	|           └── service3Service.js
-│       ├── secondFeature
-|    	|   ├── users
-|    	|   │   ├── controllers
-|   	|   │   │   └── fourthController.js
-|   	|   │   ├── directives
-|   	|   │   │   └── directive4.js
-|   	|   │   ├── filters
-|   	|   │   │   └── filter5.js
-|   	|   │   ├── resources
-|   	|   │   │   └── resource2Resource.js
-|   	|   │   └── services
-|   	|   │       ├── service4Service.js
-|   	|   │       └── service5.js
+│       └── secondFeature
+|    	    └── users
+|    	        ├── controllers
+|   	        │   └── fourthController.js
+|   	        ├── directives
+|   	        │   └── directive4.js
+|   	        ├── filters
+|   	        │   └── filter5.js
+|   	        ├── resources
+|   	        │   └── resource2Resource.js
+|   	        └── services
+|   	            ├── service4Service.js
+|   	            └── service5.js
 └── assets
     ├── css
     ├── fonts
